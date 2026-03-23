@@ -5,4 +5,9 @@ public class Carousel implements MaintenanceInfo{
     public void printMaintenanceInfo() {
         System.out.println("Требуется провести техническое обслуживание");
     }
+
+    @Override
+    public String toString() {
+        return "'Карусель'";
+    }
 }

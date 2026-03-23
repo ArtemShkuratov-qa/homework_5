@@ -9,6 +9,7 @@ public class Main {
         botanicalGarden.setPlant(cactus);
         botanicalGarden.getPlantInstruction();
         botanicalGarden.deletePlant();
+        botanicalGarden.getPlantInstruction();
 
         botanicalGarden.setPlant(orchid);
         botanicalGarden.getPlantInstruction();

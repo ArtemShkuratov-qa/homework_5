@@ -10,4 +10,9 @@ public class Chicken extends FarmAnimal{
     public void feed() {
         System.out.println("Курица клюет зерно");
     }
+
+    @Override
+    public String toString() {
+        return "'Курица'";
+    }
 }

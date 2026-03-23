@@ -10,6 +10,7 @@ public class Main {
         farm.feedFarmAnimal();
         farm.collectProduct();
         farm.deleteFarmAnimal();
+        farm.feedFarmAnimal();
 
         farm.setFarmAnimal(chicken);
         farm.feedFarmAnimal();

@@ -9,6 +9,7 @@ public class Main {
         aquarium.setSeaAnimal(shark);
         aquarium.getSeaAnimalInfo();
         aquarium.deleteSeaAnimal();
+        aquarium.getSeaAnimalInfo();
 
         aquarium.setSeaAnimal(seaStar);
         aquarium.getSeaAnimalInfo();

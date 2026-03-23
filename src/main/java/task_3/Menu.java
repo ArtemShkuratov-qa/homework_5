@@ -5,16 +5,19 @@ public class Menu {
 
     public void setDish(Dish dish) {
         this.dish = dish;
-        System.out.println("Позиция " + this.dish + " была добавлена в меню!");
+        System.out.println("Позиция " + dish + " была добавлена в меню!");
     }
 
     public void deleteDish() {
-        System.out.println("Позиция " + this.dish + " была удалена из меню!");
+        System.out.println("Позиция " + dish + " была удалена из меню!");
         System.out.println();
         this.dish = null;
     }
 
     public void callDishInfo() {
-        this.dish.getInfo();
+        if (this.dish == null) {
+            System.out.println("Позиция отсутвует");
+            System.out.println();
+        } else this.dish.getInfo();
     }
 }

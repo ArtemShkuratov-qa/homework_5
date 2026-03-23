@@ -11,6 +11,7 @@ public class Main {
         petSystem.callWalk();
         petSystem.callPlay();
         petSystem.deletePet();
+        petSystem.callPlay();
 
         petSystem.setPet(cat);
         petSystem.callEat();

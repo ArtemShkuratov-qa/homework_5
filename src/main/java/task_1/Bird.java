@@ -10,4 +10,9 @@ public class Bird extends Animal{
     void makeMove() {
         System.out.println("Птица летает");
     }
+
+    @Override
+    public String toString() {
+        return "'Птица'";
+    }
 }

@@ -10,4 +10,9 @@ public class Elephant extends Animal{
     void makeMove() {
         System.out.println("Слон ходит");
     }
+
+    @Override
+    public String toString() {
+        return "'Слон'";
+    }
 }

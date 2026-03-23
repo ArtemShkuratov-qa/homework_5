@@ -5,4 +5,9 @@ public class Manuscript extends Exhibit {
     public void printCareInstruction() {
         System.out.println("Экспонату требуется контроль влажности");
     }
+
+    @Override
+    public String toString() {
+        return "'Манускрипт'";
+    }
 }

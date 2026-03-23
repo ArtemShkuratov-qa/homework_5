@@ -5,4 +5,9 @@ public class Orchid extends Plant{
     public void printCareInstructions() {
         System.out.println("Требует высокую влажность и тень");
     }
+
+    @Override
+    public String toString() {
+        return "'Орхидея'";
+    }
 }

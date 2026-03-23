@@ -10,4 +10,8 @@ public class Cow extends FarmAnimal{
     public void feed() {
         System.out.println("Корова пасется на лугу");
     }
+
+    public String toString() {
+        return "'Корова'";
+    }
 }

@@ -15,4 +15,9 @@ public class MainDish implements Dish{
     public void getInfo() {
         System.out.println("Температура подачи блюда: " + this.temperature);
     }
+
+    @Override
+    public String toString() {
+        return "'Основное блюдо'";
+    }
 }

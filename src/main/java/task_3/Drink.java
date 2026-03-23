@@ -15,4 +15,9 @@ public class Drink implements Dish{
     public void getInfo() {
         System.out.println("Объем наптика: " + this.value + " мл.");
     }
+
+    @Override
+    public String toString() {
+        return "'Напиток'";
+    }
 }

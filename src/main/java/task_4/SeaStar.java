@@ -9,4 +9,9 @@ public class SeaStar extends SeaAnimal{
     public void move() {
         System.out.println("Морское существо ползает");
     }
+
+    @Override
+    public String toString() {
+        return "'Морская звезда'";
+    }
 }

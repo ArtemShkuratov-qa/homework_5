@@ -5,4 +5,9 @@ public class RollerCoaster implements MaintenanceInfo {
     public void printMaintenanceInfo() {
         System.out.println("Требуется провести проверку безопасности");
     }
+
+    @Override
+    public String toString() {
+        return "'Американские горки'";
+    }
 }

@@ -1,6 +1,6 @@
 package task_2;
 
-public class Cat extends Pet implements Playable{
+public class Cat extends Pet{
     @Override
     public void eat() {
         System.out.println("Кошка ест влажный корм");
@@ -9,6 +9,11 @@ public class Cat extends Pet implements Playable{
     @Override
     public void play() {
         System.out.println("Кошка играет");
+    }
+
+    @Override
+    public String toString() {
+        return "'Кошка'";
     }
 
 }

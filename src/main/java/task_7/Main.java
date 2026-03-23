@@ -9,6 +9,7 @@ public class Main {
         amusementPark.setAttraction(carousel);
         amusementPark.getMaintenanceInfo();
         amusementPark.deleteAttraction();
+        amusementPark.getMaintenanceInfo();
 
         amusementPark.setAttraction(rollerCoaster);
         amusementPark.getMaintenanceInfo();

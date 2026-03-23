@@ -5,4 +5,9 @@ public class Cactus extends Plant{
     public void printCareInstructions() {
         System.out.println("Требует много света и редкий полив");
     }
+
+    @Override
+    public String toString() {
+        return "'Кактус'";
+    }
 }

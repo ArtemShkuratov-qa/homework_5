@@ -9,6 +9,7 @@ public class Main {
         museum.setExhibit(sculpture);
         museum.getCareInstruction();
         museum.deleteExhibit();
+        museum.getCareInstruction();
 
         museum.setExhibit(manuscript);
         museum.getCareInstruction();

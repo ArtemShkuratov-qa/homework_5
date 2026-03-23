@@ -5,4 +5,9 @@ public class Sculpture extends Exhibit{
     public void printCareInstruction() {
         System.out.println("Экспонат нуждается в реставрации");
     }
+
+    @Override
+    public String toString() {
+        return "'Скульптура'";
+    }
 }
